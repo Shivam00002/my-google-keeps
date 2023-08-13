@@ -29,6 +29,8 @@ import Image from 'next/image';
         <Link href='/' className={currentLink==='home'?'nav-link_home_current':'nav-link_home'} >Home</Link>
         <Link href='/contact' className={currentLink==='contact'?'nav-link_contact_current':'nav-link_contact'} >Contact</Link>
 
+
+
         <Link href='/privacypolicy'>Privacy Policy</Link>
   
   
