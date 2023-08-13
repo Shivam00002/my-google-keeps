@@ -10,9 +10,12 @@ import Image from 'next/image';
 
 
 
+
+
   const toggleMenu = () => { setIsOpen(!isOpen) };
 
  
+
   return (
     <div className='navbar' id='nav-menu'>
       <div className='nav-logo'>
