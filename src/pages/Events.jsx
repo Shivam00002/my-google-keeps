@@ -12,6 +12,9 @@ return (
 <Navbar/>
 
 
+
+
+
 <div className="event"><p>Events in Bengluru</p></div>
     <div  id="parent">
  
