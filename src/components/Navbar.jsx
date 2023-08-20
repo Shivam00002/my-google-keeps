@@ -5,7 +5,8 @@ import Image from 'next/image';
 
 
  const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] =
+ useState(false);
   const [currentLink, setCurrentLink] = useState(false)
 
 
@@ -21,8 +22,10 @@ import Image from 'next/image';
   return (
     <div className='navbar' id='nav-menu'>
       <div className='nav-logo'>
+
         <Image alt="nav-logo" src="https://res.cloudinary.com/admitad-gmbh/image/upload/h_0.5,f_auto/ixaa8tyj24yv45cmgysl.png" height="33" width="95"/>
       </div>
+
       <div className='menu-button' onClick={toggleMenu}><MenuOutlined className='menu' /></div>
       <nav className={!isOpen ? 'nav-close' : 'nav-open'}>
       
