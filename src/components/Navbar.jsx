@@ -13,8 +13,6 @@ import Image from 'next/image';
 
 
 
-
-
   const toggleMenu = () => { setIsOpen(!isOpen) };
 
  
