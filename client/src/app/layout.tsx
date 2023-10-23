@@ -3,7 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Notes Keeper",
+  title: "Google Keeps",
   description: "Developed by Ankit Panchal",
 };
 
