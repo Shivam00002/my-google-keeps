@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@apollo/server": "^4.7.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitpanchaal/google-keeps-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankitpanchaal/google-keeps-api/issues"
+  },
+  "homepage": "https://github.com/ankitpanchaal/google-keeps-api#readme"
+}
