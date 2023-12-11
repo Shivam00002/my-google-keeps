@@ -32,6 +32,7 @@ const PinnedNotes = () => {
   };
 
 
+
   useEffect(() => {
     doRefetch();
     setRefetch(false);
