@@ -35,6 +35,7 @@ const Pin: FC<Props> = ({ isPinned, noteId, setModalOpen }) => {
     },
   });
 
+
   // Function to handle pin toggle
   const handlePinToggle = async () => {
     try {
