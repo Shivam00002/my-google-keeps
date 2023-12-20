@@ -24,6 +24,7 @@ const PinnedNotes = () => {
     fetchPolicy: "network-only",
   });
 
+
   const handleMore = () => {
     setLimit((previous) => previous + 6);
   };
