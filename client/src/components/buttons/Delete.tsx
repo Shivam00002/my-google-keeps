@@ -42,4 +42,5 @@ const Delete: FC<Props> = ({ noteId }) => {
   );
 };
 
+
 export default Delete;
