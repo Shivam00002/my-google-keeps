@@ -31,7 +31,6 @@ const PinnedNotes = () => {
     if (limit >= 12) setLimit((previous) => previous - 6);
   };
 
-
   useEffect(() => {
     doRefetch();
     setRefetch(false);
