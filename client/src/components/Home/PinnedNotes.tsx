@@ -72,4 +72,5 @@ const PinnedNotes = () => {
   );
 };
 
+
 export default PinnedNotes;
