@@ -19,6 +19,7 @@ const NoteTaker: FC = () => {
 
   const [createNote, { loading }] = useMutation(CREATE_NOTE);
 
+
   //creating note in backend
   const handleCreateCTA = async () => {
     try {
