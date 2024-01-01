@@ -27,6 +27,7 @@ const Delete: FC<Props> = ({ noteId }) => {
     setRefetch(true);
   };
 
+
   return (
     <div
       className="p-1 rounded-full hover:bg-gray-300 w-fit cursor-pointer"
