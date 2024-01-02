@@ -22,6 +22,7 @@ const InputField: FC<TInputFeild> = ({
       />
     </div>
   );
+
 };
 
 export default InputField;
