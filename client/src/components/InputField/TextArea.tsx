@@ -4,8 +4,6 @@ type TTextAreaProps = {
   value: string;
   handleInputs: (value: React.ChangeEvent<HTMLTextAreaElement>) => void;
 };
-
-
 const TextArea: FC<TTextAreaProps> = ({ value, handleInputs }) => {
   return (
     <div>
