@@ -17,6 +17,7 @@ const PrimaryButton: FC<TPrimaryButtonProps> = ({
         isLoading && "bg-white py-0"
       }`}
     >
+
       {isLoading ? (
         <Image
           height={28}
@@ -25,6 +26,7 @@ const PrimaryButton: FC<TPrimaryButtonProps> = ({
           src={GIF}
           className=" mx-auto"
         />
+
       ) : (
         label
       )}
