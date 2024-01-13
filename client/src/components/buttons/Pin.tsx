@@ -13,8 +13,6 @@ type Props = {
 
 const Pin: FC<Props> = ({ isPinned, noteId, setModalOpen }) => {
   const { setRefetch } = contextStates();
-
-
   const [updateNotePin, { loading, data }] = useMutation(UPDATE_NOTE_PIN, {
     update: (cache, { data }) => {
       // Manually update the cache after the mutation is performed
