@@ -9,6 +9,7 @@ const TextArea: FC<TTextAreaProps> = ({ value, handleInputs }) => {
     <div>
       <textarea
         placeholder="Enter your content here..."
+
         onChange={handleInputs}
         value={value}
         className="outline-none w-full h-[160px] text-sm font-normal "
