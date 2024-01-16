@@ -14,7 +14,6 @@ const NotAuthenticated = () => {
         src={"/NotAuthenticated.png"}
       />
 
-
       <div className="text-black font-semibold text-center text-base">
         Sorry You have to login first
       </div>
