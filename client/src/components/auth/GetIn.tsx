@@ -11,7 +11,6 @@ import InputField from "../InputField/InputField";
 
 const GetIn: FC = () => {
   const { setUserName } = contextStates();
-
   const [modalOpen, setModalOpen] = useState<boolean>(true);
   const [isNull, setIsNull] = useState<boolean>(false);
   const [username, setUsername] = useState<string>("");
