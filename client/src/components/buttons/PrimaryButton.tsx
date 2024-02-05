@@ -13,6 +13,7 @@ const PrimaryButton: FC<TPrimaryButtonProps> = ({
 }) => {
   return (
     <div
+
       className={`bg-primary text-center rounded-lg py-1 px-8 text-white text-lg font-semibold cursor-pointer hover:bg-opacity-90 shadow-md ${
         isLoading && "bg-white py-0"
       }`}
