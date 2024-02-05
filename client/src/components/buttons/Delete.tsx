@@ -12,6 +12,7 @@ type Props = {
 const Delete: FC<Props> = ({ noteId }) => {
   const { setRefetch } = contextStates();
 
+
   const [deleteNote, { data, loading }] = useMutation(DELETE_NOTE, {
     variables: { id: noteId }, // Pass the noteId variable to the mutation
     onError: (error) => {
