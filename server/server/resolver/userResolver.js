@@ -14,6 +14,7 @@ const userResolvers = {
       }
     },
   },
+
   Mutation: {
     createUser: async (_, { userName }) => {
       try {
