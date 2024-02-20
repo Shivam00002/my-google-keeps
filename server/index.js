@@ -22,6 +22,7 @@ mongoose
     console.log(err.message);
   });
 
+
 const server = new ApolloServer({
   typeDefs: [
   noteTypeDef,
