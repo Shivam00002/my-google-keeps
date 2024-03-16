@@ -21,6 +21,7 @@ const Pin: FC<Props> = ({ isPinned, noteId, setModalOpen }) => {
         fields: {
           // Modify the cache for the specific note ID
           getNotesByUserName(existingNotes = []) {
+
             const updatedNotes = existingNotes.map((note: any) => {
               if (note._id === updatedNote._id) {
                 return updatedNote;
