@@ -19,7 +19,6 @@ const PrimaryButton: FC<TPrimaryButtonProps> = ({
       }`}
     >
 
-
     {isLoading ? (
         <Image
           height={28}
