@@ -10,6 +10,7 @@ const PinnedNotes = () => {
   const { userName, refetch, setRefetch } = contextStates();
   const [limit, setLimit] = useState(6);
 
+
   const {
     loading,
     data,
