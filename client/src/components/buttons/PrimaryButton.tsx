@@ -18,8 +18,6 @@ const PrimaryButton: FC<TPrimaryButtonProps> = ({
         isLoading && "bg-white py-0"
       }`}
     >
-
-
     {isLoading ? (
         <Image
           height={28}
