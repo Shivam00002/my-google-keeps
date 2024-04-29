@@ -11,7 +11,6 @@ type Props = {
   setModalOpen?: (value: boolean) => void;
 };
 
-
 const Pin: FC<Props> = ({ isPinned, noteId, setModalOpen }) => {
   const { setRefetch } = contextStates();
   const [updateNotePin, { loading, data }] = useMutation(UPDATE_NOTE_PIN, {
