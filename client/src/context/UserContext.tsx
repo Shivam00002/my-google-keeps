@@ -14,6 +14,7 @@ interface UserProviderProps {
   children: ReactNode;
 }
 
+
 const UserProvider: React.FC<UserProviderProps> = ({
   children,
 }: UserProviderProps) => {
