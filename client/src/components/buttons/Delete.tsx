@@ -9,7 +9,6 @@ type Props = {
   noteId: string;
 };
 
-
 const Delete: FC<Props> = ({ noteId }) => {
   const { setRefetch } = contextStates();
 
