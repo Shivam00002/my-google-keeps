@@ -6,6 +6,7 @@ type TInputFeild = {
   handleInputChange: (value: React.ChangeEvent<HTMLInputElement>) => void;
 };
 
+
 const InputField: FC<TInputFeild> = ({
   value,
   placeholder,
